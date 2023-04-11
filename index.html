@@ -87,8 +87,8 @@ margin-right: 20px;
 
 <body>
     <div class="mytitle">
-        <h1>우기기우기기</h1>
-        <button>이 정 호</button>
+        <h1>내 생애 최고의 영화들</h1>
+        <button>영화 기록하기</button>
     </div>
 
     <div class="mypost">
@@ -97,13 +97,23 @@ margin-right: 20px;
             <label for="floatingInput">영화 URL</label>
         </div>
 
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">별점</label>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>선택하기</option>
+              <option value="1">⭐⭐⭐⭐⭐</option>
+              <option value="2">⭐⭐⭐⭐</option>
+              <option value="3">⭐⭐⭐</option>
+            </select>
+          </div>
+
         <div class="form-floating">
             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
             <label for="floatingTextarea">코멘트</label>
         </div>
         <div class="mybtn">
-            <button type="button" class="btn btn-dark">Dark</button>
-            <button type="button" class="btn btn-outline-dark">Dark</button>
+            <button type="button" class="btn btn-dark">기록하기</button>
+            <button type="button" class="btn btn-outline-dark">닫기</button>
         </div>
     </div>
 
